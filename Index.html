@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My WebSite</title>
+    <link href="Content/bootstrap.css"  rel="stylesheet"/>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+
+    <link href="Mainstyle.css" rel="stylesheet" />
+</head>
+<body data-spy="scroll" data-target="#mainnav" data-offset="15">
+    <br />
+    
+    <nav class="navbar navbar-default navbar-fixed-top  ">
+        <div class="navbar-header">
+            <button id="expbutt" type="button" class="navbar-toggle" data-target="#mainnav" data-toggle="collapse">
+
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+
+
+            </button>
+        </div>
+        <div id="mainnav" class="navbar-collapse collapse  ">
+        <ul class="nav navbar-nav  ">
+            <li class="active "><a class="tabb"  href="#home">About</a></li>
+            <li><a class="tabb" href="#projects">Projects</a></li>
+            
+           
+        </ul>
+        </div>
+    </nav>
+
+
+
+
+    
+    `<div class="container" id="home">
+    <div class="row">
+
+        <div class="col-md-4 col-sm-12 col-xs-12  ">
+            <div class="slideanimright" >
+                <img class="img-circle img-responsive" src="my.jpg" />
+                <h2 class="text-primary"> Ahmed Reda</h2>
+                <span class="glyphicon glyphicon-briefcase"></span> <h4>Software Engineer</h4>
+                <span class="glyphicon glyphicon-education "></span> <h4>Computer Science,Ainshams university</h4>
+                <span class="glyphicon glyphicon-envelope"></span> <h4>reda.ahmed1997@gmail.com</h4>
+            </div>
+        </div>
+
+        <div class="col-md-8 col-sm-12 col-xs-12 ">
+            <p id="maindesc" class="well">
+                A person whose main focus is seeking knowledge and learning new things,
+                A passionate computer science student who really loves what he is doing,
+                <br />
+
+                I'm a thinker,problem solver and a geek.
+
+            </p>
+           
+        </div>
+
+    </div>
+    
+    </div>
+
+
+    <div class="brek"></div>
+    <br />
+    <div class="container"  id="projects">
+        <div class="row slideanimup">
+            <div class="col-md-4 ">
+                <a data-target="#Firstmodal" data-toggle="modal">
+
+                    <div class="thumbnail  proj">
+                        <img class="img-responsive " src="TheMini.jpg" />
+                        <p><strong>GoogleTheMini</strong></p>
+                    </div>
+                    
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a data-target="#Secondmodal" data-toggle="modal">
+
+
+                    <div class="thumbnail proj">
+                        <img  class="img-responsive " src="DriveOrg.png" />
+                        <p ><strong>Drive Organization</strong></p>
+
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a data-target="#Thirdmodal" data-toggle="modal">
+
+
+                    <div class="thumbnail proj">
+                        <img class="img-responsive" src="HireME.jpg" />
+                        <p><strong>HireME</strong></p>
+
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="modal " id="Firstmodal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" data-dismiss="modal">&times;</button>
+
+                    <h5 class="modal-title">
+                        GoogleTheMini
+                    </h5>
+                </div>
+                <div class="modal-body thumbnail">
+                    <img class="" src="TheMini.jpg" />
+                    <p>A miniature of Google search engine that works Locally on your machine that can search directories with specific keywords using inverse indexing </p>
+                </div>
+                </div>
+        </div>
+    </div>
+    <div class="modal " id="Secondmodal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" data-dismiss="modal">&times;</button>
+
+                    <h5 class="modal-title">
+                        DriveOrganization Tool
+                    </h5>
+                </div>
+                <div class="modal-body">
+                    <img class="img-thumbnail" src="DriveOrg.png" />
+                    <p>A simplified method for drive organization process. This process includes organizing the files and folders located in the specified drive in a user-friendly manner.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal " id="Thirdmodal" tabindex="-1">
+        <div class="modal-dialog modal-lg ">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" data-dismiss="modal">&times;</button>
+
+                    <h5 class="modal-title">
+                        HireME
+                    </h5>
+                </div>
+                <div class="modal-body">
+                    <img class="img-thumbnail" src="HireME.jpg" />
+                    <p>A windows application, Job owners can advertise available jobs on it and applicants can apply for a job.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer >
+        
+        <a href="www.linkedin.com">
+            <span class="socialicon fa fa-linkedin">  </span>
+        </a>
+        &nbsp;	&nbsp;
+        <a href="www.github.com">
+            <span class="socialicon fa fa-github">  </span>
+
+        </a>
+        &nbsp;	&nbsp;
+        <a href="www.twitter.com">
+            <span class="socialicon fa fa-twitter">  </span>
+        </a>
+      
+        
+      
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+
+    </script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+           
+           
+            $(window).scroll(function () {
+                $(".slideanimup").each(function () {
+                    var pos = $(this).offset().top;
+
+                    var winTop = $(window).scrollTop();
+                    if (pos < winTop + 600) {
+                        $(this).addClass("slideup");
+                    }
+                });
+            });
+
+        });
+     
+            $(".slideanimright").each(function () {
+                
+                    $(this).addClass("slideright");
+                
+           
+            });
+            $(".navbar a").on('click', function(event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") 
+                {
+
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 1000, function(){
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                }
+
+        
+            })
+      </script>
+</body>
+</html>
