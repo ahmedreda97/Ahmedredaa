@@ -4,7 +4,7 @@
 	<meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My WebSite</title>
+    <title>AhmedReda</title>
     <link href="Content/bootstrap.css"  rel="stylesheet"/>
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 
@@ -13,7 +13,7 @@
 </head>
 <body data-spy="scroll" data-target="#mainnav" data-offset="15">
     <br />
-    
+
     <nav class="navbar navbar-default navbar-fixed-top  ">
         <div class="navbar-header">
             <button id="expbutt" type="button" class="navbar-toggle" data-target="#mainnav" data-toggle="collapse">
@@ -27,10 +27,10 @@
         </div>
         <div id="mainnav" class="navbar-collapse collapse  ">
         <ul class="nav navbar-nav  ">
-            <li class="active "><a class="tabb"  href="#home">About</a></li>
+            <li class="active"><a class="tabb"  href="#home">About</a></li>
             <li><a class="tabb" href="#projects">Projects</a></li>
-            
-           
+
+
         </ul>
         </div>
     </nav>
@@ -38,7 +38,7 @@
 
 
 
-    
+
     `<div class="container" id="home">
     <div class="row">
 
@@ -61,11 +61,11 @@
                 I'm a thinker,problem solver and a geek.
 
             </p>
-           
+
         </div>
 
     </div>
-    
+
     </div>
 
 
@@ -80,7 +80,7 @@
                         <img class="img-responsive " src="TheMini.jpg" />
                         <p><strong>GoogleTheMini</strong></p>
                     </div>
-                    
+
                 </a>
             </div>
             <div class="col-md-4">
@@ -161,7 +161,7 @@
 
 
     <footer >
-        
+
         <a href="https://www.linkedin.com/in/ahmed-reda-285b5a11a">
             <span class="socialicon fa fa-linkedin">  </span>
         </a>
@@ -174,9 +174,9 @@
         <a href="https://www.twitter.com">
             <span class="socialicon fa fa-twitter">  </span>
         </a>
-      
-        
-      
+
+
+
     </footer>
 
 
@@ -192,8 +192,8 @@
     <script src="bootstrap/js/bootstrap.js"></script>
     <script type="text/javascript">
         $(document).ready(function(){
-           
-           
+
+
             $(window).scroll(function () {
                 $(".slideanimup").each(function () {
                     var pos = $(this).offset().top;
@@ -206,25 +206,25 @@
             });
 
         });
-     
+
             $(".slideanimright").each(function () {
-                
+
                     $(this).addClass("slideright");
-                
-           
+
+
             });
             $(".navbar a").on('click', function(event) {
 
-                
-                if (this.hash !== "") 
+
+                if (this.hash !== "")
                 {
 
-                  
+
                     event.preventDefault();
 
                     var hash = this.hash;
 
-                    
+
                     $('html, body').animate({
                         scrollTop: $(hash).offset().top
                     }, 1000, function(){
@@ -233,7 +233,7 @@
                     });
                 }
 
-        
+
             })
       </script>
 </body>
